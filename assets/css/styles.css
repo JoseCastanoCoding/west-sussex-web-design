@@ -29,7 +29,7 @@ span {
     border: none;
 }
 
-.container .card .icon {
+.container .card .info-pages {
     position: absolute;
     top: 0;
     left: 0;
@@ -40,20 +40,20 @@ span {
     z-index: 1;
 }
 
-.container .card:nth-child(1) .icon {
+.container .card:nth-child(1) .info-pages {
     background: #e07768;
 }
 
-.container .card:nth-child(2) .icon {
+.container .card:nth-child(2) .info-pages {
     background: #6eadd4;
 }
 
-.container .card:nth-child(3) .icon {
+.container .card:nth-child(3) .info-pages {
     background: #4aada9;
 }
 
 
-.container .card .icon .fa {
+.container .card .info-pages  {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,14 +63,14 @@ span {
     color: #fff;
 }
 
-i {
+h6 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
     transition: 0.7s;
-    color: #fff;
+    color: white;
 }
 
 .container .card .face {
@@ -103,7 +103,7 @@ i {
     opacity: 1;
 }
 
-.container .card .face.face1 .content i{
+.container .card .face.face1 .content h6{
     max-width: 100px;
 }
 
