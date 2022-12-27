@@ -27,3 +27,9 @@ typewriter2 = () => {
 }
 
 window.setTimeout(typewriter2, 4000);
+
+var myCards = document.getElementById("intro-cards");
+
+setTimeout(() => {
+    myCards.style.visibility = 'visible';
+  }, 9000);

@@ -10,13 +10,17 @@ body {
 }
 
 span {
-    animation: blinker 1s linear infinite;
+    animation: blinker 1s linear;
 }
 
 @keyframes blinker {
     50% {
         opacity: 0;
     }
+}
+
+#intro-cards {
+    visibility: hidden;
 }
 
 .container {
@@ -133,13 +137,11 @@ h4 {
     color: #414141;
 }
 
-.container .card .face.face2 .content h3 {
-    margin: 0 0 10px 0;
-    padding: 0;
+.container .card .face.face2 .content .face2-button {
+    padding: 10px;
     color: #fff;
-    font-size: 24px;
+    font-size: 1rem;
     text-align: center;
-    color: #414141;
 } 
 
 .container a {
