@@ -391,8 +391,57 @@ h4 {
 } */
 
 @media(max-width:480px) {
-    #typewriter h1, h2 {
-        font-size: 1rem;
+    #typewriter h1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .mq-introcards {
+        display: block;
+        position: absolute;
+        left: 7%;
+        top: 25%;
+    }
+
+    .hover-what-i-do {
+        position: absolute;
+        top: 234%;
+        left: 34%;
+    }
+
+    .container-what-i-do {
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        top: 275%;
+        left: 53%;
+    }
+
+    .hover-about-me {
+        position: absolute;
+        top: 324%;
+        left: 34%;
+    }
+
+    .container-about-me {
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        top: 365%;
+        left: 53%;
+    }
+
+    .hover-projects {
+        position: absolute;
+        top: 414%;
+        left: 34%;
+    }
+
+    .container-projects {
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        top: 455%;
+        left: 53%;
     }
 }
 
