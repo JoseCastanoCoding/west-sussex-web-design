@@ -406,6 +406,7 @@ h4 {
     color: white;
     text-align: center;
     padding: 19px 0px 10px 0px;
+    z-index: 1;
 }
 
 /* .footer {
@@ -426,7 +427,7 @@ h4 {
     .mq-introcards {
         display: block;
         position: absolute;
-        left: 7%;
+        left: 10%;
         top: 25%;
     }
 
@@ -470,6 +471,22 @@ h4 {
         position: absolute;
         top: 455%;
         left: 53%;
+    }
+
+    .footer-form {
+        top: 495%;
+    }
+
+    .header-and-socials .col-12 {
+        margin-top: 30px;
+    }
+
+    i.fa-brands {
+        font-size: 4em;
+    }
+
+    .social-icons {
+        justify-content: space-around;
     }
 }
 
